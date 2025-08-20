@@ -1,0 +1,44 @@
+body, .container-color {
+  background-color: #f2f0f0;
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 0.8571428571428571rem;
+}
+.bgColor {
+  background-color: #faebcc;
+}
+.h1 {
+  color: #232771;
+}
+.MuiDataGrid-columnHeader , thead {
+  background-color: #faebcc;
+  color: black;
+}
+.rotate {
+  writing-mode: vertical-rl;
+transform: rotate(180deg); /* optional, makes text upright */
+white-space: nowrap;
+text-align: left;
+vertical-align: bottom;
+height: 150px; /* adjust as needed */
+text-wrap: auto;
+} 
+.smtbl td input {
+  width: 40px;
+}
+.mdtbl td input {
+  width: 100px;
+}
+#rpc th {
+  text-align: center;
+}
+
+.btn-outline-fill {
+  transition: all 0.3s ease;
+}
+
+.btn-outline-fill:hover,
+.btn-outline-fill:active,
+.btn-outline-fill:focus {
+  background-color: #3f51b5 !important;
+  color: white !important;
+}
